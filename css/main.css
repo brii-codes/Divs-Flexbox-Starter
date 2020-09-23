@@ -102,10 +102,10 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: #996633;
 }
 
 .wrapper {
@@ -120,15 +120,27 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #996633;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
 }
+.div-1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
+.div-2{
+    border-left: solid #dfbf9f 1px;
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
 
+}
+.div-3{
+    border-left:solid #dfbf9f 1px;
+    font-family: 'Bad Script', cursive;
+}
 
 
 /* ==========================================================================
