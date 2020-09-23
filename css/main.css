@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -106,13 +107,38 @@ body {
   font-size: 1.25em;
   height: 100%;
   background: #996633;
+  color: white;
 }
 
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    font-size: 2em;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:solid #dfbf9f 1px;
+    padding: 10px;
+    padding-bottom:2.5em;
+    font-size: 1em;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  justify-content:center;
   justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -121,11 +147,13 @@ body {
   line-height: 1.5em;
   font-size: 1.6em;
   background-color: #996633;
-  height: 300px;
+  height: 100%;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  
 }
 .div-1{
     font-family: 'Source Sans Pro', sans-serif;
@@ -142,6 +170,19 @@ body {
     font-family: 'Bad Script', cursive;
 }
 
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:solid #dfbf9f 1px;
+    font-family: 'Hanalei', cursive;
+    font-size: 3em;
+    letter-spacing: .5em;
+    padding-left: 2px;
+    padding-top: 1.5em;
+}
 
 /* ==========================================================================
    Helper classes
@@ -222,7 +263,6 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
